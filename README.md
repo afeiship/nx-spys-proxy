@@ -39,3 +39,6 @@ gem build nx-spys-proxy.gemspec
 # publish
 gem push nx-spys-proxy-0.1.0.gem
 ```
+
+## resources
+- http://spys.one/free-proxy-list/CN/
