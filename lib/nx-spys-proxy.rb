@@ -1,2 +1,2 @@
-require "nx/version"
-require "nx/spys-proxy"
+require "./nx/version"
+require "./nx/spys-proxy"
