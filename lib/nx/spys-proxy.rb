@@ -15,8 +15,7 @@ module Nx
       data
     end
 
-    def initialize(proxy = "http://127.0.0.1:9090")
-      @proxy = proxy
+    def initialize
       @ip_re = /\d+\.\d+\.\d+\.\d+/
       @ports = {
         3128 => "1",
@@ -30,7 +29,6 @@ module Nx
         open(
           "http://spys.one/free-proxy-list/CN/",
           read_timeout: 5,
-          proxy: @proxy,
         )
       )
 
