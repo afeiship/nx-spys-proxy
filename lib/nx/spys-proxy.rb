@@ -29,6 +29,7 @@ module Nx
         open(
           "http://spys.one/free-proxy-list/CN/",
           read_timeout: 5,
+          proxy: "http://127.0.0.1:9090",
         )
       )
 
